@@ -1,0 +1,81 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Arial';
+    display: flex;
+}
+
+body {
+    background: rgba(6, 169, 28, 0.664);
+}
+
+.card-title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: italic;
+    justify-content: center;
+}
+
+.greeting {
+    margin-top: 20px;
+    margin-left: 280px;
+    width: 700px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+#want-play {
+    background-color: rgba(13, 147, 184, 0.664);
+    color: rgb(9, 9, 9);
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+#want-play:hover {
+    padding: 15px 15px;
+}
+
+.form-input {
+    height: 10em;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.start {
+    height: 10em;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(27, 29, 31, 0.7);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#btnLess.btnEqual.btnOver.answerField.btnRetry {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.modal-active {
+    opacity: 2;
+    pointer-events: all;
+    margin-top: 20px;
+}
